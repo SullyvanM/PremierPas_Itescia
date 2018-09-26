@@ -2,7 +2,7 @@
 from datetime import datetime
 import calendar
 
-#---------------- Fonctions -------------
+#---------------- Fonction Vérification -------------
 def verificationFormat():
     # -- On demande une date à un certain format
     dateVerif = input("Entrez la date voulu (jj/mm/aaaa) à partir du 1er novembre 1582 :\n")
@@ -26,7 +26,7 @@ def verificationFormat():
     except ValueError:
         print("Date Invalide, veuillez retenter ! \n")
 
-
+#---------------- Fonction Calcul -------------
 def calculJour(date):
     #Variables qui seront utiliser pour les calculs
     siecleBis=15
